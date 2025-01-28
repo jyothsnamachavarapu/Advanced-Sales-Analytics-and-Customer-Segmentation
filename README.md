@@ -16,9 +16,4 @@ The dataset originates from the UCI Machine Learning Repository, containing real
 
 This dataset provides comprehensive insights into the operations of an online retailer, including sales trends and customer behaviors.
 
-## Analysis Steps
-### Step 1: Data Preprocessing
-```python
-# Example of handling missing values
-data = data.dropna(subset=["CustomerID", "Description"])
-data["TotalPrice"] = data["Quantity"] * data["UnitPrice"]
+
